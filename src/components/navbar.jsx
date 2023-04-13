@@ -28,7 +28,7 @@ function NavBar () {
             <Toolbar>
             <Tabs sx={{ flexGrow:0.8}}><img src={audiophile} width="200" height="33" alt="audiphile"/></Tabs>
             <div className = "options" >
-                <Tabs sx={{ pb : 2 }} to ='/home'>HOME</Tabs>
+                <Tabs sx={{ pb : 2 }} to ='/'>HOME</Tabs>
                 <Tabs sx={{ pb : 2 }} to ='/headphones '>HEADPHONES</Tabs>
                 <Tabs sx={{ pb : 2 }} to ='/speakers '>SPEAKERS</Tabs>
                 <Tabs sx={{ pb : 2 }} to ='/earphones '>EARPHONES</Tabs>
