@@ -3,7 +3,7 @@
     flex-direction: row;
     color:white;
     display: flex;
-    padding-top : 10%;
+    padding-top : 5%;
     background-color: black;
 }
 
@@ -18,21 +18,21 @@
     }   
 }
 .main .div1{
-    margin-left: 10%;
+    margin-left: 5%;
    
     width :100%;
 }
 
 @media (max-width:801px) {
     .main .div1{
-        margin-left: 40%;
+        margin-left: 45%;
     }
     
 }
 .main .div2{
     text-decoration: none;
     width :100%;
-    padding-left : 10%;
+    padding-left : 20%;
     display:flex;
     flex-direction: row;
     color:white;
@@ -107,7 +107,7 @@
 @media(min-width:801px)
 {
     .main_2 .div1{
-        margin-bottom: 10%;
+        margin-bottom: 1%;
     
     }
     .main_2 .div2{
@@ -129,7 +129,7 @@
     }
     .main_2 .div2{
         align-items: center;
-        margin-left: 40%;
+        margin-left: 45%;
         padding-top: 3%;
         padding-bottom: 10%;
     }

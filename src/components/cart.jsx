@@ -131,10 +131,10 @@ function Cart(){
 
                     </div>
                         <div className="cartblock2" >
-                        <p>TOTAL :&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;${productData.items[0].price*productData.items[0].count}</p>
-                        <p>SHIPPING : &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;$50</p>
-                        <p>VAT (INCLUDED)  : &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;${0.2*productData.items[0].price*productData.items[0].count}</p>
-                        <p>GRAND TOTAL : &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;${1.2*productData.items[0].price*productData.items[0].count+50}</p>
+                        <p>TOTAL :&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;${(productData.items[0].price*productData.items[0].count).toFixed(2)}</p>
+                        <p>SHIPPING : &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;$50.00</p>
+                        <p>VAT (INCLUDED)  : &ensp;&ensp;&ensp;${(0.2*productData.items[0].price*productData.items[0].count).toFixed(2)}</p>
+                        <p>GRAND TOTAL : &ensp;&ensp;&ensp;&ensp;&ensp;${(1.2*productData.items[0].price*productData.items[0].count+50).toFixed(2)}</p>
                         <button className="checkoutbutton" > Continue & Pay </button>
                         </div>
 

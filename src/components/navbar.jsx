@@ -1,7 +1,7 @@
-import { AppBar , Toolbar , styled } from "@mui/material"
-import { NavLink } from "react-router-dom"
+import { AppBar , Toolbar , styled } from "@mui/material";
+import { NavLink } from "react-router-dom";
 import audiophile from '../img/audiophile.png';
-import './css/navbar.css'
+import './css/navbar.css';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const Tabs = styled(NavLink)`
@@ -28,7 +28,7 @@ function NavBar () {
             <Toolbar>
             <Tabs sx={{ flexGrow:0.8}}><img src={audiophile} width="200" height="33" alt="audiphile"/></Tabs>
             <div className = "options" >
-                <Tabs sx={{ pb : 2 }} to ='/'>HOME</Tabs>
+                <Tabs sx={{ pb : 2 }} to ='/home'>HOME</Tabs>
                 <Tabs sx={{ pb : 2 }} to ='/headphones '>HEADPHONES</Tabs>
                 <Tabs sx={{ pb : 2 }} to ='/speakers '>SPEAKERS</Tabs>
                 <Tabs sx={{ pb : 2 }} to ='/earphones '>EARPHONES</Tabs>
