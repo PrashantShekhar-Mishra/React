@@ -1,6 +1,7 @@
 import NavBar from './components/navbar'
 import X99 from './components/x99Mark';
-import Panel4 from './components/Headphone';
+import Headphone from './components/Headphone';
+import Speaker from './components/Speaker';
 import Cart from './components/cart';
 import Bottombar from './components/bottombar';
 import './App.css';
@@ -12,9 +13,9 @@ function App() {
        <NavBar />
         <Routes>
             <Route path='/' element={<X99/>} />
-            <Route path='/headphones' element={<Panel4 />} />
-           <Route path='/earphones' element={<Panel4 />} />
-           <Route path='/speakers' element={<Panel4 />} />
+            <Route path='/headphones' element={<Headphone />} />
+           <Route path='/earphones' element={<Headphone />} />
+           <Route path='/speakers' element={<Speaker />} />
            <Route path='/cart' element={<Cart />} />
            </Routes>
        </BrowserRouter> 

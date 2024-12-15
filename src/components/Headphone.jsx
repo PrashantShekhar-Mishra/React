@@ -14,7 +14,7 @@ import './css/Headphone.css';
 import product from '../Data/product.json';
 import headphone from '../Data/headphone.json';
 
-function Panel4(){
+function Headphone(){
     const[count,setcount]=useState(0);
     const[headphoneData,]=useState(headphone);
     function incrementCount(){
@@ -34,7 +34,7 @@ function Panel4(){
 
     return(
         <>
-           
+            <p className="headingheadphone">HEADPHONE</p>
             <div1>
                 <leftdiv1>
                     <img src={blackheadephone} className="headephone" alt="no img"></img>
@@ -86,7 +86,6 @@ function Panel4(){
                 </rightdiv3>
             </div3>
 
-    {/*swati's code */}
             <div4>
                 {/*this is the container1 jsx*/}
                 <div className="container1">
@@ -147,9 +146,9 @@ function Panel4(){
                 <img src={Headerphone} className="headephone" alt="A man listening to music with headphone"></img>
                     
                 </rightdiv6>
-            </div6>
+        </div6>
            
         </>
     )
 }
- export default Panel4;
+ export default Headphone;

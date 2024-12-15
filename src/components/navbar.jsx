@@ -24,7 +24,7 @@ const Appbar = styled(AppBar)`
 `
 function NavBar () {
     return(
-        <Appbar sx={{borderBottom: 0.5 , borderColor: 'grey.500'}}>
+        <Appbar  position="relative" sx={{borderBottom: 0.5 , borderColor: 'grey.500'}}>
             <Toolbar>
             <Tabs sx={{ flexGrow:0.8}}><img src={audiophile} width="200" height="33" alt="audiphile"/></Tabs>
             <div className = "options" >

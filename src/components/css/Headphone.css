@@ -6,6 +6,17 @@ p{
     display: flex;
     background-color: white;
  } 
+
+.headingheadphone{
+margin:auto;
+    padding: 15vb 15vh 15vb 15vh;
+    background-color: black;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Manrope",sans-serif ;
+    font-weight: bold;
+    color: white;
+ }
 @media (max-width: 800px) {
   div1 {
     flex-direction: column;
