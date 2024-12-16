@@ -85,20 +85,6 @@ function X99() {
             </div>
           </div>
 
-        <div-5>
-                <leftdiv5>
-                  <leftheader>
-                    <h1>{homeData.items[2].info_head1}</h1>
-                    <h1><span>{homeData.items[2].info_head2}</span> {homeData.items[2].info_head3}</h1> 
-                  </leftheader>
-                     
-                    <p>{homeData.items[2].info_body}</p>  
-                </leftdiv5>
-                <rightdiv5>
-                <img src={Headerphone} className="headephone" alt="A man listening to music with headphone"></img>
-                </rightdiv5>
-        </div-5>
-
 
       </>
   );

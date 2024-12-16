@@ -4,6 +4,9 @@ import Headphone from './components/Headphone';
 import Speaker from './components/Speaker';
 import Cart from './components/cart';
 import Bottombar from './components/bottombar';
+import Earphone from './components/Earphone';
+import Product from './components/products';
+
 import './App.css';
 import { BrowserRouter,Routes,Route} from 'react-router-dom';
 function App() {
@@ -14,11 +17,12 @@ function App() {
         <Routes>
             <Route path='/' element={<X99/>} />
             <Route path='/headphones' element={<Headphone />} />
-           <Route path='/earphones' element={<Headphone />} />
+           <Route path='/earphones' element={<Earphone />} />
            <Route path='/speakers' element={<Speaker />} />
            <Route path='/cart' element={<Cart />} />
            </Routes>
-       </BrowserRouter> 
+       </BrowserRouter>
+      <Product/>
     <Bottombar />
   </div>
   );
